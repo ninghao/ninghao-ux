@@ -15,6 +15,10 @@
   align-items: center;
   justify-content: flex-end;
   padding: 32px;
+
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 }
 
 .page__aside {
@@ -22,6 +26,12 @@
   display: flex;
   justify-content: center;
   padding: 32px;
+
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  z-index: 9999;
 }
 
 .page__main {
