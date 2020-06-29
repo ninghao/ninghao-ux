@@ -1,4 +1,22 @@
-div {
-  height: 96px;
-  background: #f4fa9c;
+.page {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  grid-template-rows: 96px auto;
+  min-height: 100vh;
+
+  grid-template-areas:
+    "a h"
+    "a m";
+}
+
+.page__header {
+  grid-area: h;
+}
+
+.page__aside {
+  grid-area: a;
+}
+
+.page__main {
+  grid-area: m;
 }
