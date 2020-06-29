@@ -19,6 +19,9 @@
 
 .page__aside {
   grid-area: a;
+  display: flex;
+  justify-content: center;
+  padding: 32px;
 }
 
 .page__main {

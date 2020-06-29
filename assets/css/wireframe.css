@@ -15,3 +15,16 @@
   height: 24px;
   background: #1d1d1d;
 }
+
+.wireframe__square--32 {
+  width: 32px;
+  height: 32px;
+  background: #1d1d1d;
+}
+
+.wireframe__circle--32 {
+  width: 32px;
+  height: 32px;
+  background: #1d1d1d;
+  border-radius: 50%;
+}
