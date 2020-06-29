@@ -11,6 +11,10 @@
 
 .page__header {
   grid-area: h;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 32px;
 }
 
 .page__aside {

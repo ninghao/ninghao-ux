@@ -9,3 +9,9 @@
 .page__main {
   background: #88bef5;
 }
+
+.wireframe__square--24 {
+  width: 24px;
+  height: 24px;
+  background: #1d1d1d;
+}
