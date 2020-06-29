@@ -28,3 +28,8 @@
   background: #1d1d1d;
   border-radius: 50%;
 }
+
+.wireframe__card {
+  min-height: 240px;
+  background: #1d1d1d;
+}
