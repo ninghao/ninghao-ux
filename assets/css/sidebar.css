@@ -5,3 +5,16 @@
 .sidebar__item--brand {
   margin-bottom: 64px;
 }
+
+@media (max-width: 576px) {
+  .sidebar__item {
+    margin: 16px;
+  }
+
+  .sidebar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
